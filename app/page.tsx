@@ -49,19 +49,19 @@ export default function Home() {
     },
     {
       id: 2,
-      institution: "MA PERSIS Cianjur",
-      degree: "Bachelor of Computer Science",
-      duration: "Jul, 2010 - Jun, 2013",
-      location: "Cianjur, Indonesia",
-      description: "Major in social education",
-    },
-    {
-      id: 3,
       institution: "HariSenin.com (course)",
       degree: "Fullstack Developer",
       duration: "Des, 2024 - Mei, 2025",
       location: "Jakarta, Indonesia",
       description: "Major in Fullstack Developer",
+    },
+    {
+      id: 3,
+      institution: "MySkill (course)",
+      degree: "Web Developer",
+      duration: "Oct, 2024 - Des, 2024",
+      location: "Jakarta, Indonesia",
+      description: "Major in Web Developer",
     },
   ];
 
