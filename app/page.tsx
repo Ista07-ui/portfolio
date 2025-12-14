@@ -16,7 +16,7 @@ export default function Home() {
       duration: "May, 2024 - Oct, 2024",
       location: "Jakarta, Indonesia",
       description:
-        "Input all invoice into the accounting program (Accurate 05), Making financial Statements (Income Statement, Balance Sheet, Cash Flow Statement, Statement of Changes in Equity, Notes to Financial Statements), Calculating pph 21, pph 23, Make ID Billing and reporting vat and pph every month, Communicate with clients who collaborate with the company (official travel)",
+        "Recorded and processed all invoices using Accurate 05 accounting software. Made financial Statements (including Income Statement, Balance Sheet, Cash Flow Statement, Statement of Changes in Equity, and Notes to Financial Statement) for multiple clients. Calculated PPh 21, and PPh 23, made ID Billing, and reported VAT and PPh monthly. Made ID Billing and reporting vat and pph every month 100% on time every month during the 6 month contract period. Communicated with clients who collaborate with the company (official travel)",
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ export default function Home() {
       duration: "Jan, 2022 - Apr, 2024",
       location: "Tangerang, Indonesia",
       description:
-        "Input all invoice into the accounting program (Accurate 04), Making financial Statements (Income Statement, Balance Sheet, Cash Flow Statement, Statement of Changes in Equity, Notes to Financial Statements), Calculating pph 23, pph 4 (2) and make tax invoice, Determine transactions that are affected by pph and reporting Vat every month, Communicating with internal and external parties related to corporate (official travel)",
+        "Managed and processed 100% of daily invoices and transaction using the accurate 04. Prepared monthly financial Statements (including Income Statement, Balance Sheet, Cash Flow Statement, Statement of Changes in Equity, and Notes to Financial Statement) to support company financial analysis. Calculated and managed PPh Article 23 and PPh Article 4 (2) Final liabilities, and issued tax invoices (e-Faktur) with a verified accuracy rate of 99% to minimize potential tax corrections. Proactively identified PPh-affected transactions and submitted monthly VAT reports consistently on time for 27 consecutive periods (January 2022 to April 2024).)",
     },
     {
       id: 3,
@@ -34,7 +34,7 @@ export default function Home() {
       duration: "Aug, 2019 - Apr, 2020",
       location: "Cikarang, Indonesia",
       description:
-        "Input all invoice into the accounting program (Sage 300 ERP), Conducting corporate financial transactions, Make evidence of deduction and calculation pph 23, 26 and 4 (2), Determine transactions that are affected by pph, Connecting with internal or external parties related to corporate",
+        "Managed all invoicing and processed an average of 60 monthly corporate financial transactions directly within the Sage 300 ERP system, ensuring the integrity of financial data in a multinational environment. Dailed exchange rate update input (Singapore dollar, Baht, Yen, Rupiah). Prepared Deduction Evidence and accurately calculated corporate tax liabilities, including PPh Article 23, PPh Article 26 (Foreign Tax), and PPh Article 4 (2) Final. Coordinated and maintained efficient communication with internal departments and external parties",
     },
   ];
 
@@ -222,17 +222,14 @@ export default function Home() {
           </h2>
           <div className="max-w-3xl mx-auto text-justify">
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-              A Bachelor of Accounting graduate, experienced accounting
-              professional with almost 3 years of experience in managing
-              financial statement calculations for income statements, balance
-              sheets, cash flow statements, equity change statements, and notes
-              to financial statements and tax administration, including
-              recording and reporting of VAT, Income Tax Article 21, Income Tax
-              Article 23, and Income Tax Article 4 paragraph 2, making tax
-              invoices. Currently transitioning to Full-Stack Development, with
-              proficiency in HTML, CSS, and JavaScript. Aspiring to utilize
-              analytical skills and attention to detail to build efficient and
-              easy-to-use web applications and grow as a Full-Stack Developer
+              A Bachelor of Accounting graduate, accounting professional
+              transitioning to Frond End Developer with hands-on experience in
+              HTML, CSS, JavaScript, Node.js, and React Native through intensive
+              bootcamp training. Leveraging 3 years of analytical experience in
+              financial management to build detail-oriented, efficient web
+              applications. Quick learner with strong problem-solving skills,
+              currently building portfolio projects and seeking opportunities to
+              grow as a Frond End Developer
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
               I am a passionate and dedicated Full-Stack Developer with a strong
