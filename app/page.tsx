@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Github, Instagram, Linkedin, Mail, Tally1Icon } from "lucide-react";
+import { Mail } from "lucide-react";
 import { ProjectCard } from "@/components/project-card";
 import { ContactForm } from "@/components/contact-form";
 import { ExperienceItem } from "@/components/experience-item";
@@ -48,6 +48,14 @@ export default function Home() {
     },
     {
       id: 2,
+      institution: "diBimbing.Id (course)",
+      degree: "FrontEnd Web Development",
+      duration: "Sep, 2025 - March, 2026",
+      location: "Jakarta, Indonesia",
+      description: "Major in FrontEnd Web Development",
+    },
+    {
+      id: 3,
       institution: "HariSenin.com (course)",
       degree: "Fullstack Developer",
       duration: "Des, 2024 - Mei, 2025",
@@ -55,7 +63,7 @@ export default function Home() {
       description: "Major in Fullstack Developer",
     },
     {
-      id: 3,
+      id: 4,
       institution: "MySkill (course)",
       degree: "Web Developer",
       duration: "Oct, 2024 - Des, 2024",
@@ -365,7 +373,7 @@ export default function Home() {
                     </span>
                   </Link>
                   <a
-                    href={`https://drive.google.com/file/d/1FXBmW9XZ/view`}
+                    href={`https://drive.google.com/file/d/1udznDD6VFpkVm0-OBrCFqeOt8ISlwgE5/view?usp=sharing`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex h-16 min-w-[180px] items-center justify-center gap-4 border border-white/10 bg-white/5 px-10 text-sm font-bold uppercase tracking-widest text-white backdrop-blur-sm transition-all hover:border-gold/50 hover:text-gold"
@@ -428,7 +436,13 @@ export default function Home() {
                       rel="noopener noreferrer"
                     >
                       <span className="text-gold group-hover:text-gold-light transition-colors">
-                        <Github className="w-5 h-5" />
+                        <svg
+                          className="w-5 h-5"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                        </svg>
                       </span>
                       <span className="text-[10px] font-black uppercase tracking-[0.3em] text-slate-400 group-hover:text-gold transition-colors">
                         GitHub
@@ -444,7 +458,13 @@ export default function Home() {
                       rel="noopener noreferrer"
                     >
                       <span className="text-gold group-hover:text-gold-light transition-colors">
-                        <Linkedin className="w-5 h-5" />
+                        <svg
+                          className="w-5 h-5"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.986-2.236-1.081 0-1.722.731-2.003 1.437-.103.25-.129.599-.129.948v5.42h-3.554s.034-8.789 0-9.514h3.554v1.347c-.009.015-.021.029-.03.042h.03v-.042c.42-.645 1.169-1.57 2.847-1.57 2.081 0 3.641 1.36 3.641 4.286v5.451zM5.337 8.855c-1.144 0-1.915-.759-1.915-1.71 0-.956.77-1.71 1.916-1.71 1.144 0 1.915.754 1.915 1.71 0 .951-.771 1.71-1.915 1.71zm1.575 11.597H3.762V9.438h3.15v10.814zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z" />
+                        </svg>
                       </span>
                       <span className="text-[10px] font-black uppercase tracking-[0.3em] text-slate-400 group-hover:text-gold transition-colors">
                         LinkedIn
@@ -658,7 +678,13 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="text-white hover:text-gold-light transition-colors"
                 >
-                  <Github className="w-5 h-5" />
+                  <svg
+                    className="w-5 h-5"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                  </svg>
                   <span className="sr-only">GitHub</span>
                 </a>
               )}
@@ -669,7 +695,13 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="text-white hover:text-gold-light transition-colors"
                 >
-                  <Linkedin className="w-5 h-5" />
+                  <svg
+                    className="w-5 h-5"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.986-2.236-1.081 0-1.722.731-2.003 1.437-.103.25-.129.599-.129.948v5.42h-3.554s.034-8.789 0-9.514h3.554v1.347c-.009.015-.021.029-.03.042h.03v-.042c.42-.645 1.169-1.57 2.847-1.57 2.081 0 3.641 1.36 3.641 4.286v5.451zM5.337 8.855c-1.144 0-1.915-.759-1.915-1.71 0-.956.77-1.71 1.916-1.71 1.144 0 1.915.754 1.915 1.71 0 .951-.771 1.71-1.915 1.71zm1.575 11.597H3.762V9.438h3.15v10.814zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z" />
+                  </svg>
                   <span className="sr-only">LinkedIn</span>
                 </a>
               )}

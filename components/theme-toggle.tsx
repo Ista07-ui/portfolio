@@ -9,7 +9,7 @@ export function ThemeToggle() {
   // Initialize theme from localStorage or system preference
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme") as "light" | "dark" | null;
-    const prefersDark = window.matchMedia(
+    const prefersDark = globalThis.matchMedia(
       "(prefers-color-scheme: dark)",
     ).matches;
 

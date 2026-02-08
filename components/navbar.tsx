@@ -113,7 +113,13 @@ export function Navbar() {
   );
 }
 
-function NavLink({ href, label }: { href: string; label: string }) {
+function NavLink({
+  href,
+  label,
+}: {
+  readonly href: string;
+  readonly label: string;
+}) {
   return (
     <Link
       href={href}
@@ -129,9 +135,9 @@ function MobileNavLink({
   label,
   onClick,
 }: {
-  href: string;
-  label: string;
-  onClick: () => void;
+  readonly href: string;
+  readonly label: string;
+  readonly onClick: () => void;
 }) {
   return (
     <Link

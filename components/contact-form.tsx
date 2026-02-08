@@ -33,7 +33,7 @@ export function ContactForm({ email }: Readonly<{ email: string }>) {
     try {
       await new Promise((resolve) => setTimeout(resolve, 1500));
       // open email client
-      window.location.href = `mailto:${email}?subject=${formData.name}&body=${formData.message}&from=${formData.email}`;
+      globalThis.location.href = `mailto:${email}?subject=${formData.name}&body=${formData.message}&from=${formData.email}`;
       setSubmitStatus("success");
       setFormData({ name: "", email: "", message: "" });
     } catch (error) {

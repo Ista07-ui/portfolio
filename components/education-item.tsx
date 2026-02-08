@@ -14,7 +14,7 @@ export function EducationItem({
   duration,
   location,
   description,
-}: EducationItemProps) {
+}: Readonly<EducationItemProps>) {
   return (
     <div className="bg-white/5 border border-gold/10 rounded-lg p-6 shadow-sm hover:shadow-md hover:border-gold/30 transition-all">
       <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
