@@ -78,7 +78,7 @@ export default function Home() {
       title: "Web Video Belajar ",
       description:
         "I designed the code and created 3 pages with React + React Router: login, register, homepage. Added interaction with usestate (data stored in an array of objects. Built the create, read, update, delete (CRUD) feature and stored data in a local JS array. Replaced the array data from the fake API using fetch/axios to fetch and send data (CRUD with data from the API)",
-      imageUrl: "/project/VideoBelajarFrontend.png",
+      imageUrl: "/videobelajarfrontend.png",
       githubUrl:
         "https://github.com/Ista07-ui/mission-intermediate-frontend-1a",
       liveUrl: "https://mission-intermediate-frontend-1a.vercel.app/",
@@ -89,7 +89,7 @@ export default function Home() {
       title: "Web Hadeon_Spot",
       description:
         "I created a web food ordering application for a cafe business, Hadeon Spot. I designed the user interface (UI) and user experience (UX) to be attractive and easy to use. Implemented responsive design so that the website can be accessed well on various devices, such as desktops, tablets, and smartphones",
-      imageUrl: "/project/Hadeon_Spot.png",
+      imageUrl: "/hadeonspot.png",
       githubUrl:
         "https://github.com/Ista07-ui/Assignment-Day-Extra-Class4-FE25ISTA/tree/main",
       liveUrl:
@@ -101,7 +101,7 @@ export default function Home() {
       title: "Web Smoothies and Pastries (React Styling CRUD and API)",
       description:
         "I created a front-end application using React and integrated the Reqres API. I also implemented user authentication features (login and registration), displayed user data, and implemented pagination. I also created protected routes and a responsive design for mobile and desktop.",
-      imageUrl: "/project/CRUDandAPIReactPages.png",
+      imageUrl: "/crud-and-api-react-pages.png",
       githubUrl:
         "https://github.com/Ista07-ui/ASSIGNMENT-Day26-Day28-Mini-Project-React",
       liveUrl:
@@ -113,7 +113,7 @@ export default function Home() {
       title: "Create Accessible UI Design",
       description:
         "I created a design that involved several steps to create a responsive mobile app (Android) and website for a cafe business, Thatha Smoothies and Cake. A basic structure or wireframe was created to define the layout and functionality, without focusing on aesthetics. This is where the designer mapped out user flows, such as login, registration, and menu navigation. All UI elements (buttons, forms, product images) were created into reusable components",
-      imageUrl: "/project/projectFigma.png",
+      imageUrl: "/projectfigma.png",
       githubUrl:
         "https://www.figma.com/design/8brkxp73AuiB2pAiUcCOtw/AssignmentDayEC1_FE25_ISTA?node-id=0-1&p=f&t=xF02RF256onnJPNi-0",
       liveUrl:
@@ -125,7 +125,7 @@ export default function Home() {
       title: "Todo List App",
       description:
         "I created the app from scratch, defined the UI and created the logic with using plain HTML, CSS and Javascript",
-      imageUrl: "/project/TodoApp.png",
+      imageUrl: "/todoapp.png",
       githubUrl: "https://github.com/Ista07-ui/mission-4",
       liveUrl: "https://ista07-ui.github.io/mission-4/",
       tags: ["git", "html", "css", "javascript"],
@@ -135,7 +135,7 @@ export default function Home() {
       title: "Slicing Figma to HTML and CSS",
       description:
         "I exported design elements such as images, icons, and defined text properties (font, size, color) directly from the Figma inspection panel, and created a web page skeleton using semantic HTML according to the layout seen in the Figma design and applied: Apply visual styles using CSS to match the pixel-perfect design in Figma, including element placement (layout), color scheme, typography, and ensure the website display functions well on various screen sizes (responsiveness)",
-      imageUrl: "/project/SlicingAssign18git_diBimbing.png",
+      imageUrl: "/slicingassign18git-dibimbing.png",
       githubUrl: "https://github.com/Ista07-ui/git-diBimbing",
       liveUrl: "https://github.com/Ista07-ui/git-diBimbing",
       tags: ["git", "html", "css"],
@@ -441,7 +441,7 @@ export default function Home() {
                           fill="currentColor"
                           viewBox="0 0 24 24"
                         >
-                          <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                          <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.768.84 1.236 1.911 1.236 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
                         </svg>
                       </span>
                       <span className="text-[10px] font-black uppercase tracking-[0.3em] text-slate-400 group-hover:text-gold transition-colors">
@@ -676,14 +676,14 @@ export default function Home() {
                   href={links.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white hover:text-gold-light transition-colors"
+                  className="text-gold hover:text-gold-light transition-colors"
                 >
                   <svg
                     className="w-5 h-5"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
-                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.768.84 1.236 1.911 1.236 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
                   </svg>
                   <span className="sr-only">GitHub</span>
                 </a>
