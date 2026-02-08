@@ -74,6 +74,16 @@ const config: Config = {
           "900": "#0a4970",
           "950": "#062e4b",
         },
+        gold: {
+          DEFAULT: "#d4af37",
+          light: "#f9e076",
+          dark: "#996515",
+        },
+        emerald: {
+          dark: "#022c22",
+        },
+        "matte-black": "#0a0a0a",
+        midnight: "#020617",
       },
       borderRadius: {
         lg: "var(--radius)",

@@ -49,22 +49,19 @@ export function ContactForm({ email }: Readonly<{ email: string }>) {
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
       {submitStatus === "success" && (
-        <div className="p-4 bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-300 rounded-lg">
+        <div className="p-4 bg-emerald-900/20 text-emerald-300 rounded-lg border border-emerald-500/30">
           Thank you for your message! I'll get back to you soon.
         </div>
       )}
 
       {submitStatus === "error" && (
-        <div className="p-4 bg-red-50 dark:bg-red-900/20 text-red-700 dark:text-red-300 rounded-lg">
+        <div className="p-4 bg-red-900/20 text-red-300 rounded-lg border border-red-500/30">
           There was an error sending your message. Please try again.
         </div>
       )}
 
       <div>
-        <label
-          htmlFor="name"
-          className="block text-gray-700 dark:text-gray-300 font-medium mb-2"
-        >
+        <label htmlFor="name" className="block text-slate-300 font-medium mb-2">
           Name
         </label>
         <input
@@ -74,7 +71,7 @@ export function ContactForm({ email }: Readonly<{ email: string }>) {
           value={formData.name}
           onChange={handleChange}
           required
-          className="w-full px-4 py-3 border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 rounded-lg focus:ring-2 focus:ring-cornflower-500 focus:border-cornflower-500 outline-none transition-colors dark:text-white"
+          className="w-full px-4 py-3 border border-gold/20 bg-white/5 rounded-lg focus:ring-2 focus:ring-gold focus:border-gold outline-none transition-colors text-white placeholder:text-slate-500"
           placeholder="Your name"
         />
       </div>
@@ -82,7 +79,7 @@ export function ContactForm({ email }: Readonly<{ email: string }>) {
       <div>
         <label
           htmlFor="email"
-          className="block text-gray-700 dark:text-gray-300 font-medium mb-2"
+          className="block text-slate-300 font-medium mb-2"
         >
           Email
         </label>
@@ -93,7 +90,7 @@ export function ContactForm({ email }: Readonly<{ email: string }>) {
           value={formData.email}
           onChange={handleChange}
           required
-          className="w-full px-4 py-3 border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 rounded-lg focus:ring-2 focus:ring-cornflower-500 focus:border-cornflower-500 outline-none transition-colors dark:text-white"
+          className="w-full px-4 py-3 border border-gold/20 bg-white/5 rounded-lg focus:ring-2 focus:ring-gold focus:border-gold outline-none transition-colors text-white placeholder:text-slate-500"
           placeholder="your.email@example.com"
         />
       </div>
@@ -101,7 +98,7 @@ export function ContactForm({ email }: Readonly<{ email: string }>) {
       <div>
         <label
           htmlFor="message"
-          className="block text-gray-700 dark:text-gray-300 font-medium mb-2"
+          className="block text-slate-300 font-medium mb-2"
         >
           Message
         </label>
@@ -112,7 +109,7 @@ export function ContactForm({ email }: Readonly<{ email: string }>) {
           onChange={handleChange}
           required
           rows={5}
-          className="w-full px-4 py-3 border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 rounded-lg focus:ring-2 focus:ring-cornflower-500 focus:border-cornflower-500 outline-none transition-colors resize-none dark:text-white"
+          className="w-full px-4 py-3 border border-gold/20 bg-white/5 rounded-lg focus:ring-2 focus:ring-gold focus:border-gold outline-none transition-colors resize-none text-white placeholder:text-slate-500"
           placeholder="Your message..."
         />
       </div>
@@ -120,10 +117,8 @@ export function ContactForm({ email }: Readonly<{ email: string }>) {
       <button
         type="submit"
         disabled={isSubmitting}
-        className={`w-full py-3 px-6 rounded-lg font-medium text-white transition-colors ${
-          isSubmitting
-            ? "bg-cornflower-400 dark:bg-cornflower-600 cursor-not-allowed"
-            : "bg-cornflower-600 hover:bg-cornflower-700 dark:bg-cornflower-600 dark:hover:bg-cornflower-500"
+        className={`w-full py-3 px-6 rounded-lg font-medium text-white transition-all gold-emerald-btn ${
+          isSubmitting ? "opacity-50 cursor-not-allowed" : ""
         }`}
       >
         {isSubmitting ? "Sending..." : "Send Message"}

@@ -34,15 +34,15 @@ export function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-white dark:bg-gray-900 shadow-md py-3"
-          : "bg-transparent py-5"
+          ? "bg-white dark:glass-nav shadow-md py-3"
+          : "bg-transparent dark:glass-nav py-5"
       }`}
     >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <Link
             href="/"
-            className="text-xl font-bold text-cornflower-600 dark:text-cornflower-400"
+            className="text-xl font-bold text-gold dark:gold-gradient-text"
           >
             Portfolio
           </Link>
@@ -63,7 +63,7 @@ export function Navbar() {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-gray-700 dark:text-gray-300 focus:outline-none"
+            className="md:hidden text-gray-700 dark:text-gold-light focus:outline-none"
             onClick={toggleMenu}
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           >
@@ -78,7 +78,7 @@ export function Navbar() {
 
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-white dark:bg-gray-900 shadow-md">
+        <div className="md:hidden absolute top-full left-0 right-0 bg-white dark:glass-nav shadow-md">
           <div className="container mx-auto px-4 py-4 flex flex-col gap-4">
             <MobileNavLink href="#hero" label="Home" onClick={closeMenu} />
             <MobileNavLink href="#about" label="About" onClick={closeMenu} />
@@ -117,7 +117,7 @@ function NavLink({ href, label }: { href: string; label: string }) {
   return (
     <Link
       href={href}
-      className="text-gray-700 dark:text-gray-300 hover:text-cornflower-600 dark:hover:text-cornflower-400 font-medium transition-colors"
+      className="text-gray-700 dark:text-gold-light hover:text-gold dark:hover:text-gold-light transition-colors"
     >
       {label}
     </Link>
@@ -136,7 +136,7 @@ function MobileNavLink({
   return (
     <Link
       href={href}
-      className="text-gray-700 dark:text-gray-300 hover:text-cornflower-600 dark:hover:text-cornflower-400 font-medium py-2 transition-colors"
+      className="text-gray-700 dark:text-gold-light hover:text-gold dark:hover:text-gold-light font-medium py-2 transition-colors"
       onClick={onClick}
     >
       {label}
