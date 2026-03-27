@@ -75,6 +75,16 @@ export default function Home() {
   const projects = [
     {
       id: 1,
+      title: "Web Travel TREVTHA ",
+      description:
+        "I designed TREVTHA is a travel and tourism web platform that enables users to explore destinations, book travel activities, and manage their bookings in one place. The platform provides features such as browsing travel packages, handling transactions, applying promotions, and managing user profiles, all within a responsive and user-friendly interface. On the admin side, TREVTHA includes management features for categories, activities, promotions, users, and transactions, along with dashboard analytics to monitor platform performance",
+      imageUrl: "/trevtha.png",
+      githubUrl: "https://github.com/Ista07-ui/Final-Project-Trevtha",
+      liveUrl: "https://trevtha.vercel.app/",
+      tags: ["nextjs", "react", "git", "html", "css", "javascript"],
+    },
+    {
+      id: 2,
       title: "Web Video Belajar ",
       description:
         "I designed the code and created 3 pages with React + React Router: login, register, homepage. Added interaction with usestate (data stored in an array of objects. Built the create, read, update, delete (CRUD) feature and stored data in a local JS array. Replaced the array data from the fake API using fetch/axios to fetch and send data (CRUD with data from the API)",
@@ -85,7 +95,7 @@ export default function Home() {
       tags: ["react", "git", "html", "css", "javascript"],
     },
     {
-      id: 2,
+      id: 3,
       title: "Web Hadeon_Spot",
       description:
         "I created a web food ordering application for a cafe business, Hadeon Spot. I designed the user interface (UI) and user experience (UX) to be attractive and easy to use. Implemented responsive design so that the website can be accessed well on various devices, such as desktops, tablets, and smartphones",
@@ -97,7 +107,7 @@ export default function Home() {
       tags: ["git", "typescript", "css", "javascript"],
     },
     {
-      id: 3,
+      id: 4,
       title: "Web Smoothies and Pastries (React Styling CRUD and API)",
       description:
         "I created a front-end application using React and integrated the Reqres API. I also implemented user authentication features (login and registration), displayed user data, and implemented pagination. I also created protected routes and a responsive design for mobile and desktop.",
@@ -109,7 +119,7 @@ export default function Home() {
       tags: ["git", "typescript", "react", "tailwindcss"],
     },
     {
-      id: 4,
+      id: 5,
       title: "Create Accessible UI Design",
       description:
         "I created a design that involved several steps to create a responsive mobile app (Android) and website for a cafe business, Thatha Smoothies and Cake. A basic structure or wireframe was created to define the layout and functionality, without focusing on aesthetics. This is where the designer mapped out user flows, such as login, registration, and menu navigation. All UI elements (buttons, forms, product images) were created into reusable components",
@@ -121,7 +131,7 @@ export default function Home() {
       tags: ["Figma", "design"],
     },
     {
-      id: 5,
+      id: 6,
       title: "Todo List App",
       description:
         "I created the app from scratch, defined the UI and created the logic with using plain HTML, CSS and Javascript",
@@ -131,7 +141,7 @@ export default function Home() {
       tags: ["git", "html", "css", "javascript"],
     },
     {
-      id: 6,
+      id: 7,
       title: "Slicing Figma to HTML and CSS",
       description:
         "I exported design elements such as images, icons, and defined text properties (font, size, color) directly from the Figma inspection panel, and created a web page skeleton using semantic HTML according to the layout seen in the Figma design and applied: Apply visual styles using CSS to match the pixel-perfect design in Figma, including element placement (layout), color scheme, typography, and ensure the website display functions well on various screen sizes (responsiveness)",
