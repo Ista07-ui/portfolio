@@ -102,8 +102,7 @@ export default function Home() {
       imageUrl: "/hadeonspot.png",
       githubUrl:
         "https://github.com/Ista07-ui/Assignment-Day-Extra-Class4-FE25ISTA/tree/main",
-      liveUrl:
-        "https://github.com/Ista07-ui/Assignment-Day-Extra-Class4-FE25ISTA/tree/main",
+      liveUrl: "hadeon-spot.vercel.app",
       tags: ["git", "typescript", "css", "javascript"],
     },
     {
@@ -114,8 +113,7 @@ export default function Home() {
       imageUrl: "/crud-and-api-react-pages.png",
       githubUrl:
         "https://github.com/Ista07-ui/ASSIGNMENT-Day26-Day28-Mini-Project-React",
-      liveUrl:
-        "https://github.com/Ista07-ui/ASSIGNMENT-Day26-Day28-Mini-Project-React",
+      liveUrl: "smoothies-and-pastries.vercel.app",
       tags: ["git", "typescript", "react", "tailwindcss"],
     },
     {
